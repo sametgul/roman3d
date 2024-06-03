@@ -1,8 +1,17 @@
-# Roman3D: 3 DOF Robotic Manipulator
+# Roman3D: 3 DOF Planar Robotic Manipulator
 
 ## Overview
 
-This repository contains all the necessary components for constructing and operating a 3 DOF planar robotic manipulator experiment setup. The project includes a CAD model design of the robot, embedded code for the data acquisition card, the circuit design for the card, and a MATLAB project template.
+This repository contains all the necessary components for constructing and operating a 3-DOF planar direct drive robotic manipulator. The project includes:
+
+* A CAD model design of the robot
+* Embedded code for the data acquisition card
+* Circuit design for the data acquisition card
+* A MATLAB project template
+
+The schematic of this experimental setup is shown in the figure below. The control algorithms are implemented in MATLAB/Simulink, referred to as the control unit in the diagram. The custom data acquisition unit gathers the robot's states and converts the control signals from the control unit into voltage signals. The experiments run in real-time with a 1 kHz sampling rate.
+
+![Experimental Setup Schematic](figs/setup.png)
 
 ## Contents
 
@@ -58,14 +67,6 @@ For detailed documentation on each component, refer to the following:
 - [Circuit Design Documentation](./CircuitDesign/README.md)
 - [MATLAB Project Documentation](./MATLABProject/README.md)
 
-## Contributing
-
-Contributions are welcome! Please see our [contributing guidelines](CONTRIBUTING.md) for more details.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or issues, please contact [your name] at [your email address].
