@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains all the necessary components for constructing and operating a 3 DOF planar robotic manipulator experiment setup. The project includes a CAD model of the robot, embedded code for the data acquisition card, the circuit design for the card, and a MATLAB project template.
+This repository contains all the necessary components for constructing and operating a 3 DOF planar robotic manipulator experiment setup. The project includes a CAD model design of the robot, embedded code for the data acquisition card, the circuit design for the card, and a MATLAB project template.
 
 ## Contents
 
