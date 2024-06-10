@@ -17,10 +17,10 @@ The schematic of this experimental setup is shown in the figure below. The contr
 
 For detailed documentation on each component, refer to the following:
 
-- [Matlab/Simulink Template](./matlab_template/README.md)
 - [CAD Model Documentation](./CAD/README.md)
 - [Embedded Code Documentation](./EmbeddedCode/README.md)
 - [Circuit Design Documentation](./CircuitDesign/README.md)
+- [MATLAB Project Documentation](./MATLABProject/README.md)
 
 ## Contents
 
