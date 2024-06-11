@@ -4,7 +4,7 @@
 
 In this experimental setup, the control algorithms run on Simulink. The data acquisition device communicates with MATLAB through a serial COM port. The Real-Time Desktop package for MATLAB enables real-time serial port communication. To test new control algorithms, simply replace the controller block in the provided template.
 
-![template](**/figs/template.png)
+![template](/figs/template.png)
 
 ## Contents
 To use or understand how this template works, review the following sections:
