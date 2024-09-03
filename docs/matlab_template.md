@@ -26,7 +26,7 @@ rtwho
 ```
 Example output:
 
-![rtwho command output](../figs/rtwho.png)
+![rtwho command output](/figs/rtwho.png)
 
 ## Simulink configuration
 After creating a Simulink project, configure it for the real-time kernel by following these steps:
@@ -35,38 +35,38 @@ After creating a Simulink project, configure it for the real-time kernel by foll
 2. Navigate to Code Generation.
 3. Set the System target file to `sldrt.tlc`.
 
-![code generation](../figs/code_gen.png)
+![code generation](/figs/code_gen.png)
 
 After this configuration, a new tab named ***Desktop Real-Time*** will appear in Simulink. Start simulations from this tab using the ***Run In Real Time*** button:
 
-![run button](../figs/run_real.png)
+![run button](/figs/run_real.png)
 
 ## Encoder Input Configuration
 
 To communicate with the device, add a ***Packet Input*** block from the ***Simulink Desktop Real-Time Library***:
 
-![packet input](../figs/pac_in.png)
+![packet input](/figs/pac_in.png)
 
 Install a new serial port board as shown:
 
-![input config](../figs/in_config.png) 
+![input config](/figs/in_config.png) 
 
-![input config 2](../figs/in_config2.png) 
+![input config 2](/figs/in_config2.png) 
 
 Select the serial port according to the device manager:
 
-![Device manager](../figs/dev_man.png) 
+![Device manager](/figs/dev_man.png) 
 
 Configure the device to send encoder input in 16-bit integer format at ***Block output data types***:
 
-![input config 3](../figs/in_config3.png) 
+![input config 3](/figs/in_config3.png) 
 
 Now, convert the encoder input to radians. First, convert int16 to double using a convert block:
 
-![input block](../figs/input.png) 
+![input block](/figs/input.png) 
 
 ## DAC Output Configurations
 
 To send DAC values to the device, use the ***Packet Output*** block from the ***Simulink Desktop Real-Time*** library. Calculate the real DAC value by converting +/- 10V to a 0-4096 range in MATLAB. Also, include a ***Rate Transition*** block before outputting DAC values:
 
-![output block](../figs/out_block.png) 
+![output block](/figs/out_block.png) 
