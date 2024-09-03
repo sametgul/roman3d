@@ -4,9 +4,9 @@
 
 This repository contains all the necessary components for constructing and operating a 3-DOF planar direct drive robotic manipulator. The project includes:
 
+- **Hardware Overview**: The schematic and layout of the data acquisition card.
 - **Control Unit**: A MATLAB project template for implementing and simulating control algorithms.
 - **Embedded Code**: Software running on the data acquisition card.
-- **Circuit Design**: The schematic and layout of the data acquisition card.
 - **CAD Model**: A comprehensive model of the robotic design.
 
 You can find a series of posts about this project on [my personal website](https://sametgul.github.io/categories/roman3d-a-comprehensive-guide-to-constructing-a-3-dof-planar-robotic-manipulator/).
