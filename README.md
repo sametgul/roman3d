@@ -6,8 +6,7 @@ This repository contains all the necessary components for constructing and opera
 
 - **Hardware Overview**: The schematic and layout of the data acquisition card.
 - **Control Unit**: A MATLAB project template for implementing and simulating control algorithms.
-- **Embedded Code**: Software running on the data acquisition card.
-- **CAD Model**: A comprehensive model of the robotic design.
+- **Embedded Software**: Software running on the data acquisition card.
 
 You can find a series of posts about this project on [my personal website](https://sametgul.github.io/categories/roman3d-a-comprehensive-guide-to-constructing-a-3-dof-planar-robotic-manipulator/).
 
@@ -20,4 +19,6 @@ _Figure 1: Experimental Setup Schematic_
 
 For detailed documentation on each component, please refer to the following sections:
 
+- [Hardware Overview](/docs/hardware.md)
 - [Control Unit Implementation](/docs/matlab_template.md)
+- [Embedded Software](/docs/embedded_sw.md)
